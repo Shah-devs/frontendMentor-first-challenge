@@ -76,6 +76,16 @@ h2 {
   margin-top: 50px;
 }
 
+.sr-only {
+  position: absolute ;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+
 @media (max-width: 768px) {
   .main-container {
     flex-direction: row;
